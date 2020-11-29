@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Data;
+use DB;
+use PDF;
 
 class HomeController extends Controller
 {

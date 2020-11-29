@@ -19,20 +19,15 @@
       Data Management
    </div>
    <li class="nav-item">
-      <a class="nav-link" href="/pegawai">
-         <i class="fas fa-fw fa-users"></i>
-         <span>Data Pegawai</span></a>
+      <a class="nav-link" href="/artikel">
+         <i class="fa fa-paper-plane" aria-hidden="true"></i>
+         <span>Post</span></a>
    </li>
-   <li class="nav-item">
+   {{-- <li class="nav-item">
       <a class="nav-link" href="/ruang">
-         <i class="fas fa-fw fa-boxes"></i>
-         <span>Data Ruang</span></a>
-   </li>
-   <li class="nav-item">
-      <a class="nav-link" href="#">
-         <i class="fas fa-fw fa-toggle-on"></i>
-         <span>Laporan</span></a>
-   </li>
+         <i class="fas fa-pen    "></i>
+         <span>Edit Profil</span></a>
+   </li> --}}
 
    <!-- Nav Item - Pages Collapse Menu -->
 

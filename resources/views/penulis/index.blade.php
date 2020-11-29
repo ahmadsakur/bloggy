@@ -8,17 +8,12 @@
     </div>
     <!-- /.card-header -->
     <div class="card-body">
-      @if(session('success'))
-      <div class="alert alert-success">
-        {{session('success')}}
-      </div>
-      @endif
-      <a class="btn btn-primary mb-2" href="/penulis/create">Add StoryTeller</a>
+      <a class="btn btn-primary mr-2" href="/penulis/create">Add StoryTeller</a>
       <table class="table table-bordered">
         <thead>
           <tr>
             <th style="width: 10px">#</th>
-            <th>Name</th>
+            <th>Judul</th>
             <th>Email</th>
             <th style="width: 40px">Action</th>
           </tr>

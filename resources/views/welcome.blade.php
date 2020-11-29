@@ -32,8 +32,8 @@
             </button>
             <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a href="/register" class="mt-2">Sign Up</a>
-                    <a href="/login" class="btn btn-primary">Log In</a>
+                    <a href="/register" class="mt-2 text-decoration-none">Sign Up</a>
+                    <a href="/login" style="color: white !important" class="btn btn-primary">Log In</a>
                 </div>
             </div>
         </nav>
@@ -46,7 +46,7 @@
                 <h3>Every Story <span>Matters</span> </h3>
                 <p>Bloggy adalah wadah untuk kamu bercerita, bagikan kisahmu karena kami percaya bahwa setiap cerita itu
                     penting</p>
-                <a href="/loginn" class="btn border border-primary text-dark">Get Started &rarr;</a>
+                <a href="/blog" class="btn border border-primary text-dark">Get Started &rarr;</a>
                 <p style="margin-top: 200px">&copy; SanberCode Final Project</p>
             </div>
             <div class="col-lg-6">

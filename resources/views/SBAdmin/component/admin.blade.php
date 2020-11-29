@@ -97,7 +97,7 @@
     <i class="fas fa-angle-up"></i>
   </a>
 
-
+  @include('sweetalert::alert')
   <!-- Bootstrap core JavaScript-->
   <script src="{{asset('SBAdmin/vendor/jquery/jquery.min.js')}}"></script>
   <script src="{{asset('SBAdmin/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>

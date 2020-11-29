@@ -23,9 +23,9 @@ Route::get('/login', function () {
 Route::get('/register', function () {
     return view('register');
 })->name('register');
-
-
+Route::resource('blog', BlogController::class);
 Route::middleware('role:admin')->resource('kategori', CategoryController::class);
 Route::middleware('role:admin')->resource('penulis', WriterController::class);
 Route::middleware('role:admin')->get('/dashboard','HomeController@admin')->name('dashboard');
 Route::middleware('role:writer')->get('/home', 'HomeController@writer')->name('panel');
+Route::middleware('role:writer')->resource('artikel', ArtikelController::class);

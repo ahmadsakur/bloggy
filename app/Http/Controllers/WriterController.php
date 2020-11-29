@@ -102,7 +102,7 @@ class WriterController extends Controller
      */
     public function destroy($id)
     {
-        writer::destroy($id);
+        user::destroy($id);
         return redirect('/penulis')->with('success','User Berhasil DiHapus');
     }
 }

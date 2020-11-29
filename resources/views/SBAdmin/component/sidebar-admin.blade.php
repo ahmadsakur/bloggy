@@ -28,11 +28,11 @@
          <i class="fas fa-fw fa-boxes"></i>
          <span>Data Penulis</span></a>
    </li>
-   <li class="nav-item">
+   {{-- <li class="nav-item">
       <a class="nav-link" href="#">
          <i class="fas fa-fw fa-toggle-on"></i>
          <span>Laporan</span></a>
-   </li>
+   </li> --}}
 
    <!-- Nav Item - Pages Collapse Menu -->
 

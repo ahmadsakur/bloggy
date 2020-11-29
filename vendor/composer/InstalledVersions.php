@@ -14,16 +14,25 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => '11fbdff55b4db4145650e867db0053dc9e505018',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
   array (
+    'barryvdh/laravel-dompdf' => 
+    array (
+      'pretty_version' => 'v0.8.7',
+      'version' => '0.8.7.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '30310e0a675462bf2aa9d448c8dcbf57fbcc517d',
+    ),
     'cordoval/hamcrest-php' => 
     array (
       'replaced' => 
@@ -73,6 +82,15 @@ private static $installed = array (
       array (
       ),
       'reference' => 'e864bbf5904cb8f5bb334f99209b48018522f042',
+    ),
+    'dompdf/dompdf' => 
+    array (
+      'pretty_version' => 'v0.8.6',
+      'version' => '0.8.6.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'db91d81866c69a42dad1d2926f61515a1e3f42c5',
     ),
     'dragonmantank/cron-expression' => 
     array (
@@ -387,12 +405,12 @@ private static $installed = array (
     ),
     'laravel/laravel' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => '11fbdff55b4db4145650e867db0053dc9e505018',
     ),
     'laravel/tinker' => 
     array (
@@ -533,6 +551,24 @@ private static $installed = array (
       ),
       'reference' => 'c6bb6825def89e0a32220f88337f8ceaf1975fa0',
     ),
+    'phenx/php-font-lib' => 
+    array (
+      'pretty_version' => '0.5.2',
+      'version' => '0.5.2.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'ca6ad461f032145fff5971b5985e5af9e7fa88d8',
+    ),
+    'phenx/php-svg-lib' => 
+    array (
+      'pretty_version' => 'v0.3.3',
+      'version' => '0.3.3.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '5fa61b65e612ce1ae15f69b3d223cb14ecc60e32',
+    ),
     'phpdocumentor/reflection-common' => 
     array (
       'pretty_version' => '2.2.0',
@@ -661,8 +697,8 @@ private static $installed = array (
     array (
       'provided' => 
       array (
-        0 => '1.0',
-        1 => '1.0.0',
+        0 => '1.0.0',
+        1 => '1.0',
       ),
     ),
     'psr/simple-cache' => 
@@ -692,12 +728,30 @@ private static $installed = array (
       ),
       'reference' => '7e1633a6964b48589b142d60542f9ed31bd37a92',
     ),
+    'realrashid/sweet-alert' => 
+    array (
+      'pretty_version' => 'v3.1.7',
+      'version' => '3.1.7.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '94415e288bf38e482cc645030800c0a8591c9624',
+    ),
     'rhumsaa/uuid' => 
     array (
       'replaced' => 
       array (
         0 => '3.9.3',
       ),
+    ),
+    'sabberworm/php-css-parser' => 
+    array (
+      'pretty_version' => '8.3.1',
+      'version' => '8.3.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'd217848e1396ef962fb1997cf3e2421acba7f796',
     ),
     'scrivo/highlight.php' => 
     array (

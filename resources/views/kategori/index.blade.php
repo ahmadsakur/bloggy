@@ -7,11 +7,6 @@
   </div>
   <!-- /.card-header -->
   <div class="card-body">
-    @if(session('success'))
-    <div class="alert alert-success">
-      {{session('success')}}
-    </div>
-    @endif
     <a class="btn btn-primary mb-2" href="/kategori/create">Create New Category</a>
     <table class="table table-bordered">
       <thead>
@@ -90,3 +85,9 @@
 </div>
 </div>
 @endsection
+@push('scripts')
+
+});
+</script>
+
+@endpush
