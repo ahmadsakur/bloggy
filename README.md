@@ -1,11 +1,10 @@
 ## About Our Project
 
 Kelompok 14
-Ahmad Sakur
-Hamzi Azimuddin
+Ahmad Sakur | 
+Hamzi Azimuddin | 
 Muhammad Dimas Andhika
 
-Tema : Blog
 Untuk Final Project, kami membuat sebuah website dengan nama bloggy, website ini berfokus pada aktivitas blogging dan post creation dengan 3 level pengguna yaitu admin, writer, dan common user. Masing masing role memiliki fungsi yang berbeda.
 
 
@@ -16,17 +15,17 @@ Untuk keperluan penilaian, mohon untuk tidak melakukan php migrate / seed pada p
 
 ## Role Management
 Admin : 
-admin@bloggy.com
+admin@bloggy.com |
 admin12345
 
 Writer :
-writer@bloggy.com
+writer@bloggy.com |
 writer12345
 
 User :
 non login
 
-## Video Pembahasan
-yt.com/
+## Video demo
+https://youtu.be/b8yyysrFea8
 
 

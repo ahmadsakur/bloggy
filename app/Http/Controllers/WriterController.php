@@ -103,6 +103,6 @@ class WriterController extends Controller
     public function destroy($id)
     {
         user::destroy($id);
-        return redirect('/penulis')->with('success','User Berhasil DiHapus');
+        return redirect('/penulis')->with('toast_success','User Berhasil DiHapus');
     }
 }

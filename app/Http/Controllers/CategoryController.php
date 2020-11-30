@@ -46,7 +46,7 @@ class CategoryController extends Controller
          "cat_description" => $request["cat_description"],
         ]);
  
-        return redirect('/kategori')->with('toast_success','Post Berhasil Disimpan');   
+        return redirect('/kategori')->with('toast_success','Kategori Berhasil Disimpan');   
      }
 
     /**

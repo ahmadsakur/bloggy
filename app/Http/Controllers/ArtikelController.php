@@ -46,7 +46,7 @@ class ArtikelController extends Controller
             "isi" => $request["isi"]
         ]);
 
-        return redirect('/artikel')->with('success','Post berhasil dibuat');
+        return redirect('/artikel')->with('success','Artikel berhasil dibuat');
     }
 
     /**
@@ -87,7 +87,7 @@ class ArtikelController extends Controller
             'judul' => $request["judul"],
             'isi' => $request["isi"],
         ]);
-        return redirect('/artikel')->with('success', 'Post Berhasil diedit!');
+        return redirect('/artikel')->with('success', 'Artikel Berhasil diedit!');
     }
 
     /**
@@ -99,6 +99,6 @@ class ArtikelController extends Controller
     public function destroy($id)
     {
         artikel::destroy($id);
-        return redirect('/artikel')->with('success','Post Berhasil DiHapus');
+        return redirect('/artikel')->with('toast_success','Artikel Berhasil DiHapus');
     }
 }
