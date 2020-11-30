@@ -30,14 +30,23 @@
             <h5 class="ml-5 mb-3">Discover best <span>Story</span>
          </div>
       </nav>
+      <a href="/blog" class="text-decoration-none">Back &larr;</a>
       <div class="row justify-content-center">
          <h3>{{$post->judul}}</h3>
       </div>
-      {!!$post->isi!!}
-   </div>
-   <!-- end of navbar -->
-   <!-- hero -->
-   <!-- end of landing -->
+      <hr style="width: 40%" class="my-3">
+      <div class="card ">
+         <div class="card-body border border-primary">
+            {!!$post->isi!!}
+         </div>
+      </div>
+      <div class="footer">
+         <br>
+         <p class="text-center"><i class="fa fa-copyright " aria-hidden="true"></i> Bloggy 2020</p>
+      </div>
+      <!-- end of navbar -->
+      <!-- hero -->
+      <!-- end of landing -->
 </body>
 
 </html>

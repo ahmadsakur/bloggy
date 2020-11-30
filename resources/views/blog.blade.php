@@ -30,17 +30,18 @@
             <h5 class="ml-5 mb-3">Discover best <span>Story</span>
          </div>
       </nav>
-      <div class="row justify-content-center">
+      <div class="row justify-content-center mt-5">
          <div class="col-md-12">
             @forelse($artikel as $key => $post)
             {{-- cards --}} <div class="col-sm-4 mb-2 mt-3 float-left">
                <div class="card shadow-sm">
-                  <img class="card-img-top" src="https://source.unsplash.com/{{251+$post->id}}x{{180+$post->id}}">
+                  <img class="card-img-top"
+                     src="https://source.unsplash.com//{{251+$post->id}}x{{180+$post->id}}/?illustration">
                   <div class="card-body">
                      <h5 class="card-title">{{$post->judul}}</h5>
-                     <p class="card-text overflow-hidden">This is a wider card with supporting text below as a
+                     {{-- <p class="card-text overflow-hidden">This is a wider card with supporting text below as a
                         natural
-                        lead-in to additional content. This content is a little bit longer.</p>
+                        lead-in to additional content. This content is a little bit longer.</p> --}}
                      <a href="/blog/{{$post->id}}" class=" text-decoration-none">Discover&rarr;</a>
                   </div>
                   <div class="card-footer justify-content-between">
